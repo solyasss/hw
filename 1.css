@@ -1,0 +1,66 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(97, 206, 202);
+}
+
+header {
+    background-color: rgb(134, 212, 243);
+    text-align: center;
+    padding: 20px;
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+}
+
+main {
+    display: flex;
+}
+
+.task {
+    flex: 30%;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(210, 170, 170);
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.task-content {
+    background-color: rgb(235, 234, 234);
+    padding: 12px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+.lists {
+    margin-right: 0;
+}
+
+.img{
+    float: right;
+    width: 30px;
+}
+
+.task h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.task-content p {
+    padding-bottom: 5%;
+}
+
+.task-content img {
+    width: 15px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
